@@ -8,7 +8,7 @@ body{
 }
 
 img{
-    display: block;
+    
     max-width: 100%;
 }
 
@@ -191,4 +191,50 @@ header{
 .modal p{
     font-size: 14px;
     opacity: 0.7;
+}
+
+/* my work */
+
+.my-work{
+    text-align: center;
+    
+}
+
+.everything{
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio{
+    padding: 20px;
+    background-color: rgb(29, 29, 29);
+}
+
+.portfolio img{
+    width: 500px;
+    height: 400px;
+    
+}
+
+
+
+.btns a{
+    text-decoration: none;
+    
+    padding: 5px 40px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    background: linear-gradient(to right, white, green);
+    color: black;
+}
+
+
+@media(max-width: 1500px){
+    .everything{
+        display: block;
+    }
+    .portfolio{
+        
+    }
 }

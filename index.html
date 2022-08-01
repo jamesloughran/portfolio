@@ -135,9 +135,31 @@
       </div>
     </section>
 
+    <!-- social media -->
+
     <!-- connect section -->
 
-    <section class="contact">
+    <section class="container">
+      <div class="social-media">
+        <h1>Contact Me</h1>
+        <p>Send a message to me by Email or my social media accounts</p>
+        <h2>social media</h2>
+        <div class="social-logo">
+          <a href="#"><img src="./img/Twitter-logo.svg.png" alt="" /></a>
+          <a href="#"><img src="./img/174857.png" alt="" /></a>
+          <a href="#"><img src="./img/25231.png" alt="" /></a>
+        </div>
+      </div>
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <h3>GET IN TOUCH</h3>
+        <input type="text" id="name" placeholder="your name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <textarea id="message" rows="4" placeholder="....."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- <section class="contact">
       <div class="contact-wrapper">
         <div class="contact-left"></div>
         <div class="contact-right">
@@ -159,7 +181,7 @@
           </form>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- footer -->
     <footer>
@@ -185,5 +207,6 @@
       </ul> -->
     </footer>
   </body>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="./script.js"></script>
 </html>

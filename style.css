@@ -9,6 +9,92 @@ body{
 
 
 
+/* back to top button */
+
+/* html{
+    scroll-behavior: smooth;
+} */
+
+
+#back-to-top-btn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid white;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+}
+
+#back-to-top-btn:hover, #back-to-top-btn:focus{
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+}
+
+.btnEntrance{
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+}
+/* zoomIn */
+@keyframes btnEntrance{
+    from{
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* fadeInUp */
+/* @keyframes btnEntrance{
+    from{
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+} */
+
+.btnExit{
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    animation-name: btnExit;
+}
+/* zoomOut */
+@keyframes btnExit{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: scale3d(0.3,0.3,0.3);
+    }
+}
+
+/* fadeOutDown */
+/* @keyframes btnExit{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+} */
+
 /* header */
 
 header{
@@ -19,6 +105,7 @@ header{
 
 .logo{
     max-width: 100px;
+    color: white;
     
     
 }
@@ -56,7 +143,7 @@ header{
 }
 
 .nav-links:hover{
-    color: green;
+    color: #47a376;
 }
 
 .nav-toggle{
@@ -94,19 +181,22 @@ header{
 }
 
 .three-lines,.three-lines::before,.three-lines::after{
-    background: black;
+    background: white;
     width: 2em;
     height: 3px;
     border-radius: 1em;
     transition: transform 250ms ease-in-out;
+    
 }
 
 .three-lines::before{
     top: 6px;
+    
 }
 
 .three-lines::after{
     bottom: 6px;
+    
 }
 
 .three-lines::before,.three-lines::after{
@@ -124,18 +214,24 @@ header{
 
 
 .about-me{
-    background-color: #edeef6;
+    /* background-color: #edeef6; */
+    background-color: rgba(237, 234, 234, 0.219);
     font-family: sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 75vh;
-    margin: 0;
+    margin: 10px;
 }
 
 .about-me .name{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
+    
+}
+
+.about-me h1{
+    color: white;
     
 }
 
@@ -180,8 +276,15 @@ header{
     text-align: center;
 }
 
+
+.modal img{
+    max-width: 300px;
+    width: 100%;
+}
+
 .modal h1{
     margin: 0;
+    color: black;
 }
 
 .modal p{
@@ -202,6 +305,7 @@ header{
 .work{
     padding-top: 20px;
     color: lightcyan;
+    font-size: 40px;
 }
 
 .japan h2{
@@ -245,6 +349,7 @@ header{
 
 .my-work h2{
     color: lightcyan;
+    
 }
 
 .portfolio{

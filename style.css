@@ -103,11 +103,10 @@ header{
     padding: 0 20px;
 }
 
-.logo{
-    max-width: 100px;
-    color: white;
-    
-    
+.logo img{
+    max-width: 300px;
+    width: 100%;
+    padding-top: 15px;
 }
 
 .nav-bar{

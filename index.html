@@ -145,9 +145,26 @@
       </div>
       <form name="contact" method="POST" data-netlify="true">
         <h3>GET IN TOUCH</h3>
-        <input type="text" id="name" placeholder="your name" required />
-        <input type="email" id="email" placeholder="Email" required />
-        <textarea id="message" rows="4" placeholder="....."></textarea>
+        <input
+          name="name"
+          type="text"
+          id="name"
+          placeholder="your name"
+          required
+        />
+        <input
+          name="email"
+          type="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        <textarea
+          name="message"
+          id="message"
+          rows="4"
+          placeholder="....."
+        ></textarea>
         <button type="submit">Send</button>
       </form>
     </footer>

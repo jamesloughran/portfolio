@@ -143,7 +143,11 @@
           /></a>
         </div>
       </div>
-      <form onsubmit="sendEmail(); reset(); return false;">
+      <form
+        method="POST"
+        data-netlify="true"
+        onsubmit="sendEmail(); reset(); return false;"
+      >
         <h3>GET IN TOUCH</h3>
         <input type="text" id="name" placeholder="your name" required />
         <input type="email" id="email" placeholder="Email" required />

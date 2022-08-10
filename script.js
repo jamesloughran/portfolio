@@ -31,20 +31,20 @@ close.addEventListener('click', () => {
 
 // connect section
 
-function sendEmail(){
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "jamescrazen@gmail.com",
-        Password : "Locker88$$",
-        To : 'james.loughran595@gmail.com',
-        From : document.getElementById('email').value,
-        Subject : "New Contact Form Enquiry",
-        Body : "Name: "+ document.getElementById("name").value + "<br> Email: "+ document.getElementById('email').value
-        + "<br> Message: "+ document.getElementById('message').value
-    }).then(
-      message => alert('Message sent successfully')
-    );
-}
+// function sendEmail(){
+//     Email.send({
+//         Host : "smtp.gmail.com",
+//         Username : "jamescrazen@gmail.com",
+//         Password : "Locker88$$",
+//         To : 'james.loughran595@gmail.com',
+//         From : document.getElementById('email').value,
+//         Subject : "New Contact Form Enquiry",
+//         Body : "Name: "+ document.getElementById("name").value + "<br> Email: "+ document.getElementById('email').value
+//         + "<br> Message: "+ document.getElementById('message').value
+//     }).then(
+//       message => alert('Message sent successfully')
+//     );
+// }
 
 // back to top button
 

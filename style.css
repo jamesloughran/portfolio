@@ -1,10 +1,12 @@
 *,*::before,*::after{
     box-sizing: border-box;
+    
 }
 
 body{
     margin: 0;
     background-color: darkslategray;
+    font-family: sans-serif;
 }
 
 
@@ -193,6 +195,7 @@ header{
     justify-content: center;
     min-height: 75vh;
     margin: 10px;
+    border: 2px solid #47a376;
 }
 
 .about-me .name{
@@ -215,6 +218,10 @@ header{
     font-size: 14px;
     padding: 10px 25px;
     cursor: pointer;
+}
+
+.open:hover, .close:hover{
+    background-color: aquamarine;
 }
 
 .modal-container{
@@ -366,7 +373,9 @@ header{
     
 }
 
-
+.btn:hover{
+    background-color: aquamarine;
+}
 
 
 /* contact Section */
@@ -418,6 +427,11 @@ form button{
     width: 150px;
     margin: 20px auto 0;
     border-radius: 30px;
+}
+
+.contact-btn:hover{
+    background-color: aquamarine;
+    
 }
 
 /* social media links */

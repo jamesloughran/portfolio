@@ -505,6 +505,12 @@ form button{
             margin: 0;
              max-width: 100%;
         }
+
+        #back-to-top-btn{
+            color: rgb(34, 253, 180);
+            border: 3px solid rgb(34, 253, 180);
+            background-color: black;
+        }
     
     }  
 

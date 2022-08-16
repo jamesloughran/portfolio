@@ -195,7 +195,7 @@ header{
     justify-content: center;
     min-height: 75vh;
     margin: 10px;
-    border: 2px solid #47a376;
+    /* border: 2px solid #47a376; */
 }
 
 .about-me .name{

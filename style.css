@@ -34,6 +34,8 @@ body{
     border: 3px solid white;
 }
 
+
+
 .btnEntrance{
     animation-duration: 0.5s;
     animation-fill-mode: both;
@@ -112,7 +114,10 @@ header{
     font-weight: bold;
     font-size: 50px;
     text-decoration: none;
+    border-bottom: 2px solid #47a376;
 }
+
+
 
 .nav-links:hover{
     color: #47a376;
@@ -533,7 +538,11 @@ form button{
         }
         
     }
-
+    @media(max-width: 650px){
+        .modal img{
+            width: 65%;
+        }
+    }
 
 }
 

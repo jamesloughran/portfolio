@@ -527,7 +527,11 @@ form button{
         }
         #back-to-top-btn{
             right: 40px;
+            font-size: 15px;
+            width: 45px;
+            height: 45px;
         }
+        
     }
 
 

@@ -522,6 +522,14 @@ form button{
         .project-japan img{
             height: 500px;
         }
+        .nav-links{
+            font-size: 40px;
+        }
+        #back-to-top-btn{
+            right: 30px;
+        }
     }
+
+
 }
 

@@ -76,6 +76,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
+    /* display: block; */
 }
 
 .logo img{
@@ -540,7 +541,7 @@ form button{
     }
     @media(max-width: 650px){
         .modal img{
-            width: 50%;
+            width: 50%; 
         }
     }
 

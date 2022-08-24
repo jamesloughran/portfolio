@@ -192,7 +192,7 @@ header{
 
 
 .about-me{
-    /* background-color: #edeef6; */
+    
     background-color: rgba(237, 234, 234, 0.219);
     font-family: sans-serif;
     display: flex;
@@ -200,7 +200,7 @@ header{
     justify-content: center;
     min-height: 75vh;
     margin: 10px;
-    /* border: 2px solid #47a376; */
+    
 }
 
 .about-me .name{
@@ -275,7 +275,7 @@ header{
     opacity: 0.7;
 }
 
-/* my work */
+/* my work/Projects  */
 
 .japan{
     text-align: center;

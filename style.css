@@ -512,9 +512,9 @@ form button{
         }
 
         #back-to-top-btn{
-            color: rgb(34, 253, 180);
-            border: 3px solid rgb(34, 253, 180);
-            background-color: black;
+            color: black;
+            border: 3px solid black;
+            background-color: white;
         }
     
     }  

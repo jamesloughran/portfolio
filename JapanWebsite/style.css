@@ -437,6 +437,13 @@ h1{
         border: 5px solid rgba(45, 63, 79, 0.523);
     }
     }
+    @media(max-width:400px){
+        .tokyo-two img{
+            width: 350px;
+           
+        }
+    }
+
 }
 
 
@@ -489,6 +496,13 @@ h1{
         border: 5px solid rgba(12, 34, 52, 0.517);
     }
     }
+    @media(max-width:400px){
+        .osaka-two img{
+            width: 350px;
+           
+        }
+    }
+
 }
 
 /* kyoto places */
@@ -540,6 +554,12 @@ h1{
         border: 5px solid rgba(45, 63, 79, 0.523);
     }
     }
+    @media(max-width:400px){
+        .kyoto-two img{
+            width: 350px;
+           
+        }
+    }
 }
 
 /* HAKONE PLACES */
@@ -590,6 +610,12 @@ h1{
     .ropeway img{
         border: 5px solid rgba(45, 63, 79, 0.523);
     }
+    }
+    @media(max-width:400px){
+        .hakone-two img{
+            width: 350px;
+           
+        }
     }
 }
 

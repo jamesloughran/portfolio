@@ -325,7 +325,7 @@ header{
     padding: 20px;
     /* background-color: lightcyan; */
     /* border: 5px solid black; */
-    
+    border-radius: 25px;
     
 }
 
@@ -359,7 +359,7 @@ header{
     padding: 20px;
     /* background-color: lightcyan; */
     /* border: 5px solid black; */
-    
+    border-radius: 25px;
 }
 
 .projects{
@@ -412,6 +412,7 @@ form{
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(17,17,17,.9);
 }
 
 form h3{
@@ -452,6 +453,7 @@ form button{
 .social-media{
     display: block;
     padding: 0 100px;
+    
 }
 
 .social-media h1{
